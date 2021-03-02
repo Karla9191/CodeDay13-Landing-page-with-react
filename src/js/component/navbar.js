@@ -3,9 +3,9 @@ import React from "react";
 export function NavBar() {
 	return (
 		<div>
-			<nav className="navbar navbar-expand-lg navbar-light bg-light">
+			<nav className="navbar navbar-dark bg-dark">
 				<a className="navbar-brand" href="#">
-					Navbar
+					Start Bootstrap
 				</a>
 				<button
 					className="navbar-toggler"
@@ -21,7 +21,7 @@ export function NavBar() {
 				<div
 					className="collapse navbar-collapse"
 					id="navbarSupportedContent">
-					<ul className="navbar-nav mr-auto">
+					<ul className="navbar-nav mr-sm-2">
 						<li className="nav-item active">
 							<a className="nav-link" href="#">
 								Home <span className="sr-only">(current)</span>
@@ -29,53 +29,20 @@ export function NavBar() {
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#">
-								Link
+								About
 							</a>
-						</li>
-						<li className="nav-item dropdown">
-							<a
-								className="nav-link dropdown-toggle"
-								href="#"
-								id="navbarDropdown"
-								role="button"
-								data-toggle="dropdown"
-								aria-haspopup="true"
-								aria-expanded="false">
-								Dropdown
-							</a>
-							<div
-								className="dropdown-menu"
-								aria-labelledby="navbarDropdown">
-								<a className="dropdown-item" href="#">
-									Action
-								</a>
-								<a className="dropdown-item" href="#">
-									Another action
-								</a>
-								<div className="dropdown-divider"></div>
-								<a className="dropdown-item" href="#">
-									Something else here
-								</a>
-							</div>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link disabled" href="#">
-								Disabled
+							<a className="nav-link" href="#">
+								Services
+							</a>
+						</li>
+						<li className="nav-item">
+							<a className="nav-link" href="#">
+								Contact
 							</a>
 						</li>
 					</ul>
-					<form className="form-inline my-2 my-lg-0">
-						<input
-							className="form-control mr-sm-2"
-							type="search"
-							placeholder="Search"
-							aria-label="Search"></input>
-						<button
-							className="btn btn-outline-success my-2 my-sm-0"
-							type="submit">
-							Search
-						</button>
-					</form>
 				</div>
 			</nav>
 		</div>
