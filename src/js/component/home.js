@@ -9,12 +9,9 @@ import { NavBar } from "./navbar.js";
 //create your first component
 export function Home() {
 	return (
-
-        <div>
+		<div>
 			<NavBar />
 			<h1 className="text-center">Hola, Karla</h1>
 		</div>
-
-		
 	);
 }
