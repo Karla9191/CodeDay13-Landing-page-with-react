@@ -19,7 +19,6 @@ export function Card(props) {
 		</div>
 	);
 }
-
 Card.propTypes = {
 	url: PropTypes.string,
 	description: PropTypes.string,
