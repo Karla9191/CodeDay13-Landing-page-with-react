@@ -28,7 +28,7 @@ export function Home() {
 					buttonURL="#"
 				/>
 
-				<div class="card-group  row-cols-4 ">
+				<div class="card-group  row-cols-4 " id="grupo-card">
 					<div class="card">
 						<CardT />
 					</div>

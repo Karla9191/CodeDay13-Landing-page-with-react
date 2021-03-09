@@ -5,7 +5,7 @@ export function CardT() {
 	return (
 		<div className="card text-center" style={{ width: "16rem" }}>
 			<img
-				src="https://a.storyblok.com/f/89778/1168x728/b7082a9dd9/cr_00_00_2.jpeg"
+				src="https://cdn.pixabay.com/photo/2015/09/09/16/05/forest-931706_960_720.jpg"
 				className="card-img-top"
 				alt="..."
 			/>
